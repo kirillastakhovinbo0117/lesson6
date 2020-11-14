@@ -8,3 +8,7 @@ def hello_world():
 @app.route('/v2')
 def v2():
     return 'Second action'
+
+@app.route('/astakhov')
+def astakhov():
+    return 'Hello from CI with GitHub Actions by Astakhov'

@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  flask_app:
+    image: kirillastakhovinbo0117/flask_app
+    ports:
+    - 5003:5000
